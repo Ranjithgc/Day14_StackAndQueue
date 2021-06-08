@@ -16,4 +16,16 @@ public class MyQueue {
             myLinkedList.append(myNode);
         }
     }
+
+    public INode checkQueue() {
+        return myLinkedList.head;
+    }
+
+    public boolean isEmpty(){
+        return myStack.IsEmpty();
+    }
+
+    public void deQueue() {
+        myStack.emptyingTheStack();
+    }
 }
