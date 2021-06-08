@@ -16,4 +16,7 @@ public interface INode <K>{
     boolean IsEmpty();
 
     void enqueue(INode myNode);
+    INode checkQueue();
+    boolean isEmpty();
+    void deQueue();
 }
