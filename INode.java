@@ -14,4 +14,6 @@ public interface INode <K>{
     int size();
     void emptyingTheStack();
     boolean IsEmpty();
+
+    void enqueue(INode myNode);
 }
