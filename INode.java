@@ -6,4 +6,12 @@ public interface INode <K>{
 
     INode getNext();
     void setNext(INode next);
+
+    void push(INode myNode);
+    void printstack();
+    INode peak();
+    INode pop();
+    int size();
+    void emptyingTheStack();
+    boolean IsEmpty();
 }
